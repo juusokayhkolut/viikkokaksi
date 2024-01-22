@@ -16,9 +16,11 @@ class Hedgehog {
 
     public void puhu(String text) {
         if (text == "") {
-        System.out.println("olen " + this.nimi + "ja ikäni on " + this.ika + " vuotta, mutta antaisitko silti syötteen?");
+        System.out.println("olen " + this.nimi + " ja ikäni on " + this.ika + " vuotta, mutta antaisitko silti syötteen?");
+        } else {
+
+            System.out.println(this.nimi + ": " + text);
         }
-        System.out.println(this.nimi + ": " + text);
     }
 
     public void run(int kierrokset) {
