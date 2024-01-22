@@ -33,7 +33,7 @@ class App {
                     System.out.println("Kiitos ohjelman käytöstä.");
             } else {
 
-                    System.out.println("Syöte oli väärä.");
+                    System.out.println("Syöte oli väärä ");
             }
 
         } while (valinta != 0);
